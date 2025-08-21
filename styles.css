@@ -3,6 +3,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
+    display: flex;                 
+    justify-content: center;       /* center horizontally */
+    align-items: center;           /* center vertically */
+    height: 100vh;   
 }
 
 #Name {
@@ -11,8 +15,14 @@ body {
     border: 2px solid blue;
     border-radius: 10px;
     font-family: Arial, sans-serif;
-    color: darkblue;
+    color: black;
     text-align: center;
-    width: 300px;
+    width: 40vh;
+    height: 20vh;
     margin: auto;
+    justify-content: center;
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    align-items: center;      /* center vertically */
+    
 }
